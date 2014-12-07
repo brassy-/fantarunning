@@ -45,11 +45,11 @@ module.exports = function(grunt) {
       app: {
         src: [
           //'bower_components/modernizr/modernizr.js',
-          '<%= config.src %>/js/vendor/modernizr.js',
-          'bower_components/jquery/dist/jquery.js',
-          'bower_components/foundation/js/foundation/foundation.js',
-          'bower_components/foundation/js/foundation/foundation.tab.js',
-          '<%= config.src %>/js/app.js'
+          '<%= config.src %>/js/html5.js',
+          '<%= config.src %>/js/jquery.js',
+          '<%= config.src %>/js/library.js',
+          '<%= config.src %>/js/script.js',
+          '<%= config.src %>/js/retina.js'
         ],
         dest: '<%= config.dist %>/assets/js/app.js'
       }

@@ -150,7 +150,10 @@ only screen and (min-resolution:2dppx){
     .comments .tab-prev,
     .comments .tab-next,
     .button-download:after {
-      background: url(../images/sprite@2x.png) 0 0 no-repeat;
+        background: url(../images/sprite@2x.png) 0 0 no-repeat;
       @include bgsize(#{200px 50px});
+    }
+    .button-download:after {
+        background-position: -100px 0px !important
     }
 }

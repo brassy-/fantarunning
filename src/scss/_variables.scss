@@ -2,8 +2,8 @@ $wrap: 1140px;
 
 $fontSize: 16px;
 $lineHeight: 28px;
-$fontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$fontCaption: 'Raleway', $fontFamily;
+$fontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fontCaption: $fontFamily;
 
 $primary: #000000;
 $secondary: #000000;
@@ -19,6 +19,7 @@ $gray: #999999;
 $green: #00cc00;
 $red: #ff0000;
 $darkblue: #324a57;
+$yellow: #fcc019;
 
 $f-thin: 100;
 $f-extra-light: 200;
